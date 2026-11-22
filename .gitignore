@@ -1,0 +1,6 @@
+# Local environment and build output
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+dist/

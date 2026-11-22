@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Fake report for print tests</title>
+<style>
+@page { size: A4; margin: 18mm; }
+body { font: 11pt/1.4 Helvetica, Arial, sans-serif; color: #000; margin: 0; }
+h1 { font-size: 18pt; margin: 0 0 2mm; } h2 { font-size: 12.5pt; margin: 6mm 0 1.5mm; }
+.fake { border: 1.5pt solid #000; padding: 2mm 3mm; font-weight: bold; margin-bottom: 5mm; }
+table { border-collapse: collapse; width: 100%; font-size: 10pt; } td, th { border: .6pt solid #000; padding: 1mm 2mm; text-align: left; }
+.next { break-before: page; }
+.label { width: 70mm; border: 1pt solid #000; padding: 3mm; font-size: 11pt; }
+.label b { font-size: 14pt; }
+</style></head><body>
+<div class="fake">FAKE DOCUMENT, FOR PRINT TESTS ONLY. No real person or data.</div>
+<h1>Sample clinic: visit summary</h1>
+<p>Patient: Test Person. ID: 000-TEST. Date of visit: 1 January 2000. Clinician: Dr. Example.</p>
+<h2>Reason for visit</h2>
+<p>Routine check of a made-up condition. This paragraph has the length and the type size of an ordinary clinical letter, so that it shows how much of a normal A4 page survives on a narrow thermal roll.</p>
+<h2>Results</h2>
+<table><tr><th>Test</th><th>Result</th><th>Unit</th><th>Reference</th></tr>
+<tr><td>Sample A</td><td>5.4</td><td>mmol/L</td><td>3.9 to 5.6</td></tr>
+<tr><td>Sample B</td><td>13.8</td><td>g/dL</td><td>12.0 to 16.0</td></tr>
+<tr><td>Sample C</td><td>0.82</td><td>mg/dL</td><td>0.60 to 1.10</td></tr></table>
+<h2>Plan</h2>
+<p>No action is needed, because nothing here is real. Repeat the print test after any change to the driver, and compare the small type in the table with the larger type in the headings.</p>
+<div class="next label"><b>FAKE LABEL</b><br>Test Person, ID 000-TEST<br>1 tablet twice a day<br>Sample medicine 10 mg</div>
+</body></html>
